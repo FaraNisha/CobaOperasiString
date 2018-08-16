@@ -64,6 +64,11 @@ public class CobaOperasiString {
         System.out.println("pecah kata di variable tclean : ");
         for(int i=0;i<arrT.length;i++);
             System.out.println(arrT[i]);
+            
+        String[] arrTr = tclean.split("r");
+        System.out.println("pecah berdasarkan huruf 'r' di variable tclean : ");
+        for(int i=0;i<arrTr.length;i++)
+        System.out.println(arrTr[i]);
                 
         
 }
